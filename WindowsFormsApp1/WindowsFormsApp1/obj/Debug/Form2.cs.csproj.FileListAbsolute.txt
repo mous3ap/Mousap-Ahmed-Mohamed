@@ -1,0 +1,16 @@
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Guna.UI.dll
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form2.cs.csproj.AssemblyReference.cache
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form2.cs.csproj.SuggestedBindingRedirects.cache
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Department.resources
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.page_2.resources
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Salaries.resources
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form2.cs.csproj.GenerateResource.cache
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form2.cs.csproj.CoreCompileInputs.cache
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form2.cs.csproj.CopyComplete
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
