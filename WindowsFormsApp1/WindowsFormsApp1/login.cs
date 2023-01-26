@@ -40,7 +40,12 @@ namespace WindowsFormsApp1
             }
             else if (UNameTb.Text == "Admin" && PasswordTb.Text == "Password")
             {
-                {
+                Employees Obj = new Employees();
+               
+            }
+            else
+
+            {
 
         }
 
