@@ -42,7 +42,7 @@ namespace WindowsFormsApp1
             {
                 Employees Obj = new Employees();
                 Obj.Show();
-                
+                this.Hide();
             }
             else
 
