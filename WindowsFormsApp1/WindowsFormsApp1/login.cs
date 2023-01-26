@@ -47,6 +47,7 @@ namespace WindowsFormsApp1
             else
             {
                 MessageBox.Show("wrong user name or password!!!");
+                UNameTb.Text = "";
 
                 {
 
