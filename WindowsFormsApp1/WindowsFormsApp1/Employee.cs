@@ -130,6 +130,12 @@ namespace WindowsFormsApp1
                     Con.SetData(Query);
                     ShowEmp();
                     MessageBox.Show("Emoloyee Deleted!!!");
+                    EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
+                    GenCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
+                }
+            }
 
             }
 
