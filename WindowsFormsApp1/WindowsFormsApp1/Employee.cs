@@ -129,7 +129,7 @@ namespace WindowsFormsApp1
                     Query = string.Format(Query, key);
                     Con.SetData(Query);
                     ShowEmp();
-
+                    MessageBox.Show("Emoloyee Deleted!!!");
 
             }
 
