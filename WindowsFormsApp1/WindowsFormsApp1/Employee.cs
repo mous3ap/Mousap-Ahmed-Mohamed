@@ -12,8 +12,11 @@ namespace WindowsFormsApp1
 {
     public partial class page_2 : Form
     {
-        public page_2()
         {
+            Functions Con;
+            public Employees()
+            {
+                {
             InitializeComponent();
         }
 
