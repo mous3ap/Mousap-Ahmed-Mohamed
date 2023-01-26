@@ -117,6 +117,17 @@ namespace WindowsFormsApp1
                 }
                 else
                 {
+                    string Name = EmpNameTb.Text;
+                    string Gender = GenCb.SelectedItem.ToString();
+                    int Dep = Convert.ToInt32(DepCb.SelectedValue.ToString());
+                    string DOB = DOBTb.Value.ToString();
+                    string JDate = JDateTb.Value.ToString();
+                    int Salary = Convert.ToInt32(DailySalTb.Text);
+                    string Query = "Delete from EmployeeTb1 where Empid= {0}";
+                    Empid = {0}
+                    ";
+
+
                 }
 }
     }
