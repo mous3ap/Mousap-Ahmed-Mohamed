@@ -14,3 +14,4 @@ C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form2.cs.csproj.CoreC
 C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\Form2.cs.csproj.CopyComplete
 C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\project 100\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Application.resources
