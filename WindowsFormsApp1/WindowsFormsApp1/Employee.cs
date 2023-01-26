@@ -150,6 +150,10 @@ namespace WindowsFormsApp1
                 MessageBox.Show("missing data!!!");
             }
                 else
+            {
+                string Name = EmpNameTb.Text;
+                string Gender = GenCb.SelectedItem.ToString();
+                int Dep =
 
 
     }
