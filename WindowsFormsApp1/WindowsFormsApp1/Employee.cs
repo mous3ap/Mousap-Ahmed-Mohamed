@@ -17,8 +17,11 @@ namespace WindowsFormsApp1
             public Employees()
             {
                 {
-            InitializeComponent();
-        }
+                InitializeComponent();
+                Con = new Functions();
+                ShowEmp();
+                GetDepartment();
+            }
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
