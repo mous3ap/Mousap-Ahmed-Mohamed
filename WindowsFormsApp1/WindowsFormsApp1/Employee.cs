@@ -59,12 +59,13 @@ namespace WindowsFormsApp1
         }
 
         private void Employees_Load(object sender, EventArgs e)
-
         {
+
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
+
         }
 
         private void GetDepartment()
@@ -75,38 +76,39 @@ namespace WindowsFormsApp1
             DepCb.DataSource = Con.GetData(Query);
 
         }
-    }
-           private void AddBtn_Click(object sender, EventArgs e)
-    {
-        try
+        private void AddBtn_Click(object sender, EventArgs e)
         {
-            if (EmpNameTb.Text == ""  GenCb.SelectedIndex == -1  DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
-                {
-                MessageBox.Show("missing data!!!");
-            }
-                else
+            try
             {
-                string Name = EmpNameTb.Text;
-                string Gender = GenCb.SelectedItem.ToString();
-                int Dep = Convert.ToInt32(DepCb.SelectedValue.ToString());
-                string DOB = DOBTb.Value.ToString();
-                string JDate = JDateTb.Value.ToString();
-                int Salary = Convert.ToInt32(DailySalTb.Text);
-                string Query = "insert into EmployeeTb1 values('{0}','{1}',{2},'{3}','{4}',{5})";
-                Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary);
-                Con.SetData(Query);
-                ShowEmp();
-                MessageBox.Show("Emoloyee Updated!!!");
-                EmpNameTb.Text = "";
-                DailySalTb.Text = "";
-                GenCb.SelectedIndex = -1;
-                DepCb.SelectedIndex = -1;
+                if (EmpNameTb.Text == ""  GenCb.SelectedIndex == -1  DepCb.SelectedIndex == -1 || DailySalTb.Text == "")
+                {
+                    MessageBox.Show("missing data!!!");
+                }
+                else
+                {
+                    string Name = EmpNameTb.Text;
+                    string Gender = GenCb.SelectedItem.ToString();
+                    int Dep = Convert.ToInt32(DepCb.SelectedValue.ToString());
+                    string DOB = DOBTb.Value.ToString();
+                    string JDate = JDateTb.Value.ToString();
+                    int Salary = Convert.ToInt32(DailySalTb.Text);
+                    string Query = "insert into EmployeeTb1 values('{0}','{1}',{2},'{3}','{4}',{5})";
+                    Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary);
+                    Con.SetData(Query);
+                    ShowEmp();
+                    MessageBox.Show("Emoloyee Updated!!!");
+                    EmpNameTb.Text = "";
+                    DailySalTb.Text = "";
+                    GenCb.SelectedIndex = -1;
+                    DepCb.SelectedIndex = -1;
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
             }
         }
-        catch (Exception Ex)
-        {
-            MessageBox.Show(Ex.Message);
-        }
+
         private void DeleteBtn_Click(object sender, EventArgs e)
         {
             try
@@ -124,8 +126,7 @@ namespace WindowsFormsApp1
                     string JDate = JDateTb.Value.ToString();
                     int Salary = Convert.ToInt32(DailySalTb.Text);
                     string Query = "Delete from EmployeeTb1 where Empid= {0}";
-                    Empid = {0}
-                    ";
+                    Query = string.Format(Query, key);
 
 
                 }
