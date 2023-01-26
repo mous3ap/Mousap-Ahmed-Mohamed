@@ -165,6 +165,7 @@ namespace WindowsFormsApp1
                 MessageBox.Show("Emoloyee Updated!!!");
                 EmpNameTb.Text = "";
                 DailySalTb.Text = "";
+                GenCb.SelectedIndex = -1;
 
 
 
