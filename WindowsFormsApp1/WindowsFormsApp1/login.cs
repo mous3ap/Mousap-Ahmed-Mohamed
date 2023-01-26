@@ -45,8 +45,10 @@ namespace WindowsFormsApp1
                 this.Hide();
             }
             else
-
             {
+                MessageBox.Show("wrong user name or password!!!");
+
+                {
 
         }
 
