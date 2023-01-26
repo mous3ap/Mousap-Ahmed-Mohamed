@@ -176,6 +176,8 @@ namespace WindowsFormsApp1
         }
         int key = 0;
         private void EmployeeList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            EmpNameTb.Text = EmployeeList.SelectedRows[0].Cells[1].Value.ToString()
 
 
 
