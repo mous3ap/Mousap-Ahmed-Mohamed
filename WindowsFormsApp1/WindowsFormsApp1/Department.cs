@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Department : Form
+    public partial class Form2 : Form
     {
-        public Department()
+        public Form2()
         {
             InitializeComponent();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Department_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
