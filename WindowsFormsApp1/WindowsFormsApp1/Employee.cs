@@ -138,10 +138,14 @@ namespace WindowsFormsApp1
             }
              catch (Exception Ex)
             }
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
 
 
 
-                }
+    }
 }
     }
 }
