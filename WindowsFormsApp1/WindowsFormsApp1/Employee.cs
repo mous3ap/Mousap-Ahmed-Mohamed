@@ -22,8 +22,20 @@ namespace WindowsFormsApp1
                 ShowEmp();
                 GetDepartment();
             }
+            private void ShowEmp()
+            {
+                try
+                {
+                    string Query = "Select * from EmployeeTb1";
+                    EmployeeList.DataSource = Con.GetData(Query);
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+            private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }
