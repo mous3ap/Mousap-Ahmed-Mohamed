@@ -164,7 +164,7 @@ namespace WindowsFormsApp1
                 ShowEmp();
                 MessageBox.Show("Emoloyee Updated!!!");
                 EmpNameTb.Text = "";
-                EmpNameTb.Text = "";
+                DailySalTb.Text = "";
 
 
 
