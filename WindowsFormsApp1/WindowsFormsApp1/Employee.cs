@@ -33,6 +33,7 @@ namespace WindowsFormsApp1
                 {
                     throw;
                 }
+                private void textBox1_TextChanged(object sender, EventArgs
             }
 
             private void pictureBox1_Click(object sender, EventArgs e)
