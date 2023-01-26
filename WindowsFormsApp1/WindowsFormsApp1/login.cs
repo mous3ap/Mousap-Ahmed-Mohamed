@@ -49,6 +49,14 @@ namespace WindowsFormsApp1
                 MessageBox.Show("wrong user name or password!!!");
                 UNameTb.Text = "";
                 PasswordTb.Text = "";
+            }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
                 {
 
