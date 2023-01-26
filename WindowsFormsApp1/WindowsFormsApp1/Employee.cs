@@ -10,42 +10,59 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class page_2 : Form
+    public partial class Employees : Form
     {
+        Functions Con;
+        public Employees()
         {
-            Functions Con;
-            public Employees()
+            InitializeComponent();
+            Con = new Functions();
+            ShowEmp();
+            GetDepartment();
+        }
+        private void ShowEmp()
+        {
+            try
             {
-                {
-                InitializeComponent();
-                Con = new Functions();
-                ShowEmp();
-                GetDepartment();
+                string Query = "Select * from EmployeeTb1";
+                EmployeeList.DataSource = Con.GetData(Query);
             }
-            private void ShowEmp()
+            catch (Exception)
             {
-                try
-                {
-                    string Query = "Select * from EmployeeTb1";
-                    EmployeeList.DataSource = Con.GetData(Query);
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
-                private void textBox1_TextChanged(object sender, EventArgs
+                throw;
             }
-            {
+        }
 
-            }
-
-            private void label3_Click(object sender, EventArgs e)
-            {
-
-            }
-            private void pictureBox1_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Employees_Load(object sender, EventArgs e)
+        {
+
+            {
+
+            }
     }
 }
