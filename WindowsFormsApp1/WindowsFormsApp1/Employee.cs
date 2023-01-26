@@ -75,8 +75,10 @@ namespace WindowsFormsApp1
             DepCb.DataSource = Con.GetData(Query);
 
         }
-            {
+    }
+           private void AddBtn_Click(object sender, EventArgs e)
+    {
 
-            }
+    }
     }
 }
