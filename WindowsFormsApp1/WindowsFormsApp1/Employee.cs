@@ -141,6 +141,7 @@ namespace WindowsFormsApp1
             {
                 MessageBox.Show(Ex.Message);
             }
+            private void UpdateBtn_Click(object sender, EventArgs e)
         }
 
 
