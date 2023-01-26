@@ -111,7 +111,13 @@ namespace WindowsFormsApp1
         {
             try
             {
-                
+                if (key == 0)
+                {
+                    MessageBox.Show("missing data!!!");
+                }
+                else
+                {
+                }
 }
     }
 }
