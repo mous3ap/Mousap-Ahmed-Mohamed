@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
-    public partial class Form1 : Form
+    public partial class login : Form
     {
-        public Form1()
+        public login()
         {
             InitializeComponent();
         }
@@ -21,5 +21,13 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void login_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
+
+}
 }
