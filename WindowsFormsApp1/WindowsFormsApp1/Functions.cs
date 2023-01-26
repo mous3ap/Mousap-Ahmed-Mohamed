@@ -30,7 +30,21 @@ namespace WindowsFormsApp1
             return dt;
 
         }
+        public int SetData(string Query)
+        {
 
+            int cnt = 0;
+            if (Con.State == ConnectionState.Closed)
+            {
+                Con.Open();
+
+            }
+            Cmd.CommandText = Query;
+            cnt = Cmd.ExecuteNonQuery();
+            return cnt;
+
+
+        }
 
 
     }
