@@ -162,6 +162,7 @@ namespace WindowsFormsApp1
                 Query = string.Format(Query, Name, Gender, Dep, DOB, JDate, Salary, key);
                 Con.SetData(Query);
                 ShowEmp();
+                MessageBox.Show("Emoloyee Updated!!!");
 
 
 
