@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class page_2
+    partial class Employees
     {
         /// <summary>
         /// Required designer variable.
